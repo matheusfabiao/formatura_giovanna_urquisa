@@ -1,0 +1,69 @@
+{% load static %}
+
+<section class="invite-section bg-light">
+    <div class="row row-cols-1 row-cols-md-2 align-items-center g-4">
+        
+        <div class="col">
+
+            <div class="container-fluid py-5 px-md-4 invite-content text-center text-md-start">
+                
+                <h2 class="display-6 fw-bold mb-4 text-capitalize">
+                    Um convite especial
+                </h2>
+    
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id cumque esse ipsa consequuntur, ipsum architecto alias, voluptates voluptatibus ut adipisci dolor rerum laborum exercitationem nemo tempore earum aperiam excepturi dolore placeat numquam provident impedit. Fugiat corporis labore reprehenderit aperiam. Veritatis minus quia sequi mollitia non voluptates ratione, soluta asperiores!
+                </p>
+
+                <h3 class="h4 fw-bold mt-5 mb-4 text-capitalize">
+                    Detalhes do evento
+                </h3>
+
+                <table class="table table-bordered table-hover">
+
+                    <tbody>
+
+                        <tr>
+                            <td class="fw-bold">
+                                <i class="fas fa-calendar-alt"></i> Data:
+                            </td>
+                            <td>XX/XX/XXXX</td>
+                        </tr>
+
+                        <tr>
+                            <td class="fw-bold">
+                                <i class="fas fa-clock"></i> Hora:
+                            </td>
+                            <td>XX:XX</td>
+                        </tr>
+
+                        <tr>
+                            <td class="fw-bold">
+                                <i class="fas fa-map-marker-alt"></i> Local:
+                            </td>
+                            <td>XXXX</td>
+                        </tr>
+
+                        <tr>
+                            <td class="fw-bold">
+                                <i class="fas fa-tshirt"></i> Dress Code:
+                            </td>
+                            <td>XXXX</td>
+                        </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <div class="col">
+            <!-- Desktop Image -->
+            <img src="{% static 'img/gio_invite_section.jpg' %}" alt="Giovanna Urquisa" class="img-fluid d-none d-md-block invite-img-desktop">
+
+            <!-- Mobile Image -->
+            <img src="{% static 'img/gio_about_transparent.png' %}" alt="Giovanna Urquisa" class="img-fluid d-block d-md-none mx-auto invite-img-mobile">
+        </div>
+
+    </div>
+</section>

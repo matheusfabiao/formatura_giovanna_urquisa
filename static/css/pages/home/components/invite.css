@@ -1,0 +1,16 @@
+.invite-section .invite-img-desktop {
+    /* Outros estilos definidos nas classes do Bootstrap */
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+
+.invite-section i {
+    font-size: 1.5rem;
+    color: gold;
+    margin-right: 0.5rem;
+    line-height: 1.5rem;
+    vertical-align: middle;
+}

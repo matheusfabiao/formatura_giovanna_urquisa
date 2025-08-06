@@ -1,0 +1,6 @@
+.about-section img {
+    max-height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 25% 40%;
+}

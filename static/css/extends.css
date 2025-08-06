@@ -1,0 +1,13 @@
+/* Bootstrap */
+@import './bootstrap/bootstrap.min.css';
+
+/* Globals */
+@import './globals.css';
+
+/* Components */
+@import './components/navbar.css';
+
+/* Pages */
+
+/* Home */
+@import './pages/home/home.css';

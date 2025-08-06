@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Alata';
+    src: url('../fonts/Alata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    overflow: hidden;
+}
+
+/* Utility Classes */
+/* Sombra de texto */
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Sombra de caixa (filtro) */
+.drop-shadow {
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+/* Sombra de caixa (box-shadow) */
+.box-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Sombra de caixa inferior */
+.box-shadow-bottom {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
